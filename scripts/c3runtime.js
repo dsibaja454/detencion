@@ -4669,7 +4669,9 @@ function or(l, r)
 }
 
 self.C3_ExpressionFuncs = [
-
+		() => 2160,
+		() => 3840,
+		() => 0.1
 ];
 
 

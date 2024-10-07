@@ -9,8 +9,12 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Keyboard,
 		C3.Plugins.TextBox,
 		C3.Plugins.Browser,
-		C3.Plugins.Touch.Cnds.IsTouchingObject,
-		C3.Plugins.System.Acts.GoToLayout
+		C3.Plugins.System.Cnds.OnLayoutStart,
+		C3.Plugins.Browser.Cnds.IsPortraitLandscape,
+		C3.Plugins.System.Acts.SetCanvasSize,
+		C3.Plugins.System.Acts.Wait,
+		C3.Plugins.System.Acts.GoToLayout,
+		C3.Plugins.Touch.Cnds.IsTouchingObject
 	];
 };
 self.C3_JsPropNameTable = [
@@ -88,9 +92,7 @@ self.C3_JsPropNameTable = [
 	{Sprite9: 0},
 	{Sprite10: 0},
 	{sinjov36: 0},
-	{Navegador: 0},
-	{pantallaaltovalor: 0},
-	{pantallaanchovalor: 0}
+	{Navegador: 0}
 ];
 
 self.InstanceType = {
